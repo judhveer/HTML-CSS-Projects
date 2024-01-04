@@ -7,4 +7,74 @@
     font-family: "Poppins", sans-serif;
 }
 
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    height: 225px;
+    width: 375px;
+    /* border-radius: 25px; */
+}
+
+.container .card{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 25px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.19);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card header, 
+.card .logo{
+    display: flex;
+    align-items: center;
+}
+
+.card .logo img{
+    width: 48px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card .chip{
+    width: 45px;
+}
+
+.card header{
+    justify-content: space-between;
+}
+
+.card .card-details{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h6{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+h5.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h5.name{
+    margin-top: 20px;
+}
 

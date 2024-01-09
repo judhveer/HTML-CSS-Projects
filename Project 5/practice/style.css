@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    height: 100vh;
+    width:100%;
+    background-color: rgba(2, 34, 76, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outerBox{
+    width: 85%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+}
+
+.box1{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(61, 1, 80);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textBox{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.text1 h2{
+    font-size: 28px;
+}
+
+.text3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text3 h2{
+    font-size: 23px;
+}
+.text3 p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.box2{
+    width: 50%;
+    height: 100%;
+    background-image: url("side.jpg");
+    background-size: cover;
+}
+
+

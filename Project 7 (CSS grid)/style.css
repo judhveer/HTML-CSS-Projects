@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 8px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.innerContainer{
+    display: grid;
+    gap: 8px; 
+}
+
+.box{
+    background-color: rgba(118, 214, 123, 0.788);
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
